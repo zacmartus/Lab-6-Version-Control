@@ -1,3 +1,5 @@
+import decode.py as decoder
+
 def menu():
     print('Menu')
     print('-------------')
@@ -18,7 +20,7 @@ def encode(input_string):
     return encoded_string
 
 def decode(encoded_pass):
-    pass
+    return decoder.decode(encoded_pass)
 
 
 def main():
