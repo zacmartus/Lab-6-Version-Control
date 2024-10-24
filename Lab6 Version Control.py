@@ -1,6 +1,5 @@
 # Zachary Martus
 import decode.py as decoder
-
 def menu():
     print('Menu')
     print('-------------')
@@ -23,7 +22,6 @@ def encode(input_string):
 def decode(encoded_pass):
     return decoder.decode(encoded_pass)
 
-
 def main():
     encoded_string = ''
     while True:
@@ -39,19 +37,6 @@ def main():
 
         elif user_input == 3:
             break
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     main()
